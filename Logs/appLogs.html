@@ -11,7 +11,7 @@ th {background: #336699; color: #FFFFFF; text-align: left;}
 </head>
 <body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
 <hr size="1" noshade>
-Log session start time Thu Jul 07 20:37:44 IST 2022<br>
+Log session start time Wed Jul 13 15:05:54 IST 2022<br>
 <br>
 <table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
 <tr>
@@ -23,15 +23,15 @@ Log session start time Thu Jul 07 20:37:44 IST 2022<br>
 </tr>
 
 <tr>
-<td>2</td>
+<td>32</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
-<td title="Message"> Suite started at Thu Jul 07 20:37:44 IST 2022</td>
+<td title="Message"> Suite started at Wed Jul 13 15:05:54 IST 2022</td>
 </tr>
 
 <tr>
-<td>263</td>
+<td>640</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
@@ -40,7 +40,7 @@ Log session start time Thu Jul 07 20:37:44 IST 2022<br>
 </tr>
 
 <tr>
-<td>263</td>
+<td>640</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
@@ -48,7 +48,7 @@ Log session start time Thu Jul 07 20:37:44 IST 2022<br>
 </tr>
 
 <tr>
-<td>267</td>
+<td>640</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
@@ -56,7 +56,7 @@ Log session start time Thu Jul 07 20:37:44 IST 2022<br>
 </tr>
 
 <tr>
-<td>268</td>
+<td>641</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
@@ -64,15 +64,78 @@ Log session start time Thu Jul 07 20:37:44 IST 2022<br>
 </tr>
 
 <tr>
-<td>10209</td>
+<td>25862</td>
 <td title="main thread">main</td>
-<td title="Level">INFO</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
 <td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
-<td title="Message">CHROME : Browser Launched and Maximized.</td>
+<td title="Message">Browser not launched. Please check the configuration </td>
 </tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;System info: host: 'DESKTOP-4KTATF6', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Driver info: driver.version: ChromeDriver
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at utilities.DriverUtil.getBrowser(DriverUtil.java:148)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at step_defination.Hooks.beforeMethod(Hooks.java:72)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:498)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Utils$1.call(Utils.java:40)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Utils.invoke(Utils.java:34)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at test_runner.RunCukeEndUserLogin.EndUserLoginwithEmail(RunCukeEndUserLogin.java:538)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:498)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.run(TestRunner.java:621)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.run(TestNG.java:1032)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:1266/status] to be available after 20095 ms
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 48 more
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: java.util.concurrent.TimeoutException
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 49 more
+</td></tr>
 
 <tr>
-<td>10465</td>
+<td>26968</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
@@ -80,7 +143,7 @@ Log session start time Thu Jul 07 20:37:44 IST 2022<br>
 </tr>
 
 <tr>
-<td>30750</td>
+<td>33002</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
@@ -88,25 +151,452 @@ Log session start time Thu Jul 07 20:37:44 IST 2022<br>
 </tr>
 
 <tr>
-<td>34194</td>
+<td>34078</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
-<td title="Message">Input Text: Test@123 - By.cssSelector: #branding-password</td>
+<td title="Message">
++----------------------------------------------------------------------------------------------------------------------------+</td>
 </tr>
 
 <tr>
-<td>38587</td>
+<td>34079</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
-<td title="Message">Click: By.cssSelector: #branding-sumbit-button</td>
+<td title="Message">Test Started: Validating End-User login with Phone Option</td>
 </tr>
 
 <tr>
-<td>42791</td>
+<td>34079</td>
 <td title="main thread">main</td>
 <td title="Level">INFO</td>
 <td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
-<td title="Message">Click : By.xpath: //*[contains(text(),' Send me an Email')]</td>
+<td title="Message">Test is executed in Environment: Local</td>
+</tr>
+
+<tr>
+<td>34080</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Test is started with browser: CHROME</td>
+</tr>
+
+<tr>
+<td>54118</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Browser not launched. Please check the configuration </td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;System info: host: 'DESKTOP-4KTATF6', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Driver info: driver.version: ChromeDriver
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at utilities.DriverUtil.getBrowser(DriverUtil.java:148)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at step_defination.Hooks.beforeMethod(Hooks.java:72)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:498)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Utils$1.call(Utils.java:40)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Utils.invoke(Utils.java:34)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at test_runner.RunCukeEndUserLogin.EndUserLoginwithPhone(RunCukeEndUserLogin.java:556)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:498)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.run(TestRunner.java:621)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.run(TestNG.java:1032)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:6172/status] to be available after 20004 ms
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 48 more
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: java.util.concurrent.TimeoutException
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 49 more
+</td></tr>
+
+<tr>
+<td>54158</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Navigate to: https://sso-zeyqbz.preprod.quicklaunch.io</td>
+</tr>
+
+<tr>
+<td>59212</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Input Text: ql10test10 - By.cssSelector: #branding-username</td>
+</tr>
+
+<tr>
+<td>59249</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">
++----------------------------------------------------------------------------------------------------------------------------+</td>
+</tr>
+
+<tr>
+<td>59249</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Test Started: Validating End-User login without using MFA options</td>
+</tr>
+
+<tr>
+<td>59249</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Test is executed in Environment: Local</td>
+</tr>
+
+<tr>
+<td>59249</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Test is started with browser: CHROME</td>
+</tr>
+
+<tr>
+<td>93682</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">CHROME : Browser Launched and Maximized.</td>
+</tr>
+
+<tr>
+<td>93694</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Navigate to: https://sso-preprod.quicklaunch.io/admin/login</td>
+</tr>
+
+<tr>
+<td>108704</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Click: By.cssSelector: .register-form h6 &gt; a</td>
+</tr>
+
+<tr>
+<td>155765</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">
++----------------------------------------------------------------------------------------------------------------------------+</td>
+</tr>
+
+<tr>
+<td>155766</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Test Started: Validating End-User login without Phone Option</td>
+</tr>
+
+<tr>
+<td>155766</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Test is executed in Environment: Local</td>
+</tr>
+
+<tr>
+<td>155766</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Test is started with browser: CHROME</td>
+</tr>
+
+<tr>
+<td>171362</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">CHROME : Browser Launched and Maximized.</td>
+</tr>
+
+<tr>
+<td>171366</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Navigate to: https://sso.preprod.quicklaunch.io/admin/registration 	</td>
+</tr>
+
+<tr>
+<td>193117</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Click: By.cssSelector: .register-form h6 &gt; a</td>
+</tr>
+
+<tr>
+<td>195666</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Input Text: testing@njyrng.com - By.cssSelector: #login-username</td>
+</tr>
+
+<tr>
+<td>196182</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Input Text: Test@123 - By.cssSelector: #login-password</td>
+</tr>
+
+<tr>
+<td>196370</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Click: By.xpath: //*[@id=&quot;submitButton&quot;]</td>
+</tr>
+
+<tr>
+<td>200538</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Navigate to: https://sso.preprod.quicklaunch.io/admin/admin/home#/mfa/policy/pwms/firstTab</td>
+</tr>
+
+<tr>
+<td>212632</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Click : By.cssSelector: #ssoPoliciesId</td>
+</tr>
+
+<tr>
+<td>255249</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">
++----------------------------------------------------------------------------------------------------------------------------+</td>
+</tr>
+
+<tr>
+<td>255250</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Test Started: Validating End-User login without Security Question Option</td>
+</tr>
+
+<tr>
+<td>255250</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Test is executed in Environment: Local</td>
+</tr>
+
+<tr>
+<td>255250</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Test is started with browser: CHROME</td>
+</tr>
+
+<tr>
+<td>292912</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">CHROME : Browser Launched and Maximized.</td>
+</tr>
+
+<tr>
+<td>292925</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Navigate to: https://sso.preprod.quicklaunch.io/admin/registration 	</td>
+</tr>
+
+<tr>
+<td>350221</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Click: By.cssSelector: .register-form h6 &gt; a</td>
+</tr>
+
+<tr>
+<td>352984</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Input Text: testing@njyrng.com - By.cssSelector: #login-username</td>
+</tr>
+
+<tr>
+<td>354094</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Input Text: Test@123 - By.cssSelector: #login-password</td>
+</tr>
+
+<tr>
+<td>355393</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Click: By.xpath: //*[@id=&quot;submitButton&quot;]</td>
+</tr>
+
+<tr>
+<td>360548</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Navigate to: https://sso.preprod.quicklaunch.io/admin/admin/home#/mfa/policy/pwms/firstTab</td>
+</tr>
+
+<tr>
+<td>380787</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Click : By.cssSelector: #ssoPoliciesId</td>
+</tr>
+
+<tr>
+<td>396590</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Click: By.cssSelector: tbody tr:nth-child(1) td:nth-child(13) a:nth-child(1) i:nth-child(1)</td>
+</tr>
+
+<tr>
+<td>407262</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Input Text: Default - By.cssSelector: input[placeholder='Policy Name']</td>
+</tr>
+
+<tr>
+<td>408335</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Select dropdown by value : Optional - By.cssSelector: select[ng-model='vm.policy.securityQuestionStatus']</td>
+</tr>
+
+<tr>
+<td>408767</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Select dropdown by value : Optional - By.cssSelector: select[ng-model='vm.policy.phoneVerificationStatus']</td>
+</tr>
+
+<tr>
+<td>408993</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Select dropdown by value : Optional - By.cssSelector: select[ng-model='vm.policy.emailVerificationStatus']</td>
+</tr>
+
+<tr>
+<td>411220</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Click : By.cssSelector: button[class='btn btn-primary btn-width-sm']</td>
+</tr>
+
+<tr>
+<td>415371</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Click: By.cssSelector: .pull-right &gt;div &gt; div</td>
+</tr>
+
+<tr>
+<td>421057</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Click: By.xpath: //a[contains(text(),'Sign Out')]</td>
+</tr>
+
+<tr>
+<td>425185</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Navigate to: https://sso.njyrng.preprod.quicklaunch.io</td>
+</tr>
+
+<tr>
+<td>434364</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="class test_runner.RunCukeEndUserLogin,HtmlLogger category">class test_runner.RunCukeEndUserLogin,HtmlLogger</td>
+<td title="Message">Input Text: midland2 - By.cssSelector: #branding-username</td>
 </tr>

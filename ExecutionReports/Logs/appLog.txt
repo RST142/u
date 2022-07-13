@@ -50,3 +50,62 @@
 2022-07-07 20:38:19 INFO  - Input Text: Test@123 - By.cssSelector: #branding-password
 2022-07-07 20:38:23 INFO  - Click: By.cssSelector: #branding-sumbit-button
 2022-07-07 20:38:27 INFO  - Click : By.xpath: //*[contains(text(),' Send me an Email')]
+2022-07-13 15:05:54 INFO  -  Suite started at Wed Jul 13 15:05:54 IST 2022
+2022-07-13 15:05:55 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2022-07-13 15:05:55 INFO  - Test Started: Validating End-User login with Using Email Security Option
+2022-07-13 15:05:55 INFO  - Test is executed in Environment: Local
+2022-07-13 15:05:55 INFO  - Test is started with browser: CHROME
+2022-07-13 15:06:21 INFO  - Navigate to: https://sso-zeyqbz.preprod.quicklaunch.io
+2022-07-13 15:06:27 INFO  - Input Text: ql10test10 - By.cssSelector: #branding-username
+2022-07-13 15:06:28 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2022-07-13 15:06:28 INFO  - Test Started: Validating End-User login with Phone Option
+2022-07-13 15:06:28 INFO  - Test is executed in Environment: Local
+2022-07-13 15:06:28 INFO  - Test is started with browser: CHROME
+2022-07-13 15:06:48 INFO  - Navigate to: https://sso-zeyqbz.preprod.quicklaunch.io
+2022-07-13 15:06:53 INFO  - Input Text: ql10test10 - By.cssSelector: #branding-username
+2022-07-13 15:06:53 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2022-07-13 15:06:53 INFO  - Test Started: Validating End-User login without using MFA options
+2022-07-13 15:06:53 INFO  - Test is executed in Environment: Local
+2022-07-13 15:06:53 INFO  - Test is started with browser: CHROME
+2022-07-13 15:07:28 INFO  - CHROME : Browser Launched and Maximized.
+2022-07-13 15:07:28 INFO  - Navigate to: https://sso-preprod.quicklaunch.io/admin/login
+2022-07-13 15:07:43 INFO  - Click: By.cssSelector: .register-form h6 > a
+2022-07-13 15:08:30 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2022-07-13 15:08:30 INFO  - Test Started: Validating End-User login without Phone Option
+2022-07-13 15:08:30 INFO  - Test is executed in Environment: Local
+2022-07-13 15:08:30 INFO  - Test is started with browser: CHROME
+2022-07-13 15:08:46 INFO  - CHROME : Browser Launched and Maximized.
+2022-07-13 15:08:46 INFO  - Navigate to: https://sso.preprod.quicklaunch.io/admin/registration 	
+2022-07-13 15:09:07 INFO  - Click: By.cssSelector: .register-form h6 > a
+2022-07-13 15:09:10 INFO  - Input Text: testing@njyrng.com - By.cssSelector: #login-username
+2022-07-13 15:09:10 INFO  - Input Text: Test@123 - By.cssSelector: #login-password
+2022-07-13 15:09:11 INFO  - Click: By.xpath: //*[@id="submitButton"]
+2022-07-13 15:09:15 INFO  - Navigate to: https://sso.preprod.quicklaunch.io/admin/admin/home#/mfa/policy/pwms/firstTab
+2022-07-13 15:09:27 INFO  - Click : By.cssSelector: #ssoPoliciesId
+2022-07-13 15:10:09 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2022-07-13 15:10:09 INFO  - Test Started: Validating End-User login without Security Question Option
+2022-07-13 15:10:09 INFO  - Test is executed in Environment: Local
+2022-07-13 15:10:09 INFO  - Test is started with browser: CHROME
+2022-07-13 15:10:47 INFO  - CHROME : Browser Launched and Maximized.
+2022-07-13 15:10:47 INFO  - Navigate to: https://sso.preprod.quicklaunch.io/admin/registration 	
+2022-07-13 15:11:44 INFO  - Click: By.cssSelector: .register-form h6 > a
+2022-07-13 15:11:47 INFO  - Input Text: testing@njyrng.com - By.cssSelector: #login-username
+2022-07-13 15:11:48 INFO  - Input Text: Test@123 - By.cssSelector: #login-password
+2022-07-13 15:11:50 INFO  - Click: By.xpath: //*[@id="submitButton"]
+2022-07-13 15:11:55 INFO  - Navigate to: https://sso.preprod.quicklaunch.io/admin/admin/home#/mfa/policy/pwms/firstTab
+2022-07-13 15:12:15 INFO  - Click : By.cssSelector: #ssoPoliciesId
+2022-07-13 15:12:31 INFO  - Click: By.cssSelector: tbody tr:nth-child(1) td:nth-child(13) a:nth-child(1) i:nth-child(1)
+2022-07-13 15:12:41 INFO  - Input Text: Default - By.cssSelector: input[placeholder='Policy Name']
+2022-07-13 15:12:43 INFO  - Select dropdown by value : Optional - By.cssSelector: select[ng-model='vm.policy.securityQuestionStatus']
+2022-07-13 15:12:43 INFO  - Select dropdown by value : Optional - By.cssSelector: select[ng-model='vm.policy.phoneVerificationStatus']
+2022-07-13 15:12:43 INFO  - Select dropdown by value : Optional - By.cssSelector: select[ng-model='vm.policy.emailVerificationStatus']
+2022-07-13 15:12:45 INFO  - Click : By.cssSelector: button[class='btn btn-primary btn-width-sm']
+2022-07-13 15:12:50 INFO  - Click: By.cssSelector: .pull-right >div > div
+2022-07-13 15:12:55 INFO  - Click: By.xpath: //a[contains(text(),'Sign Out')]
+2022-07-13 15:12:59 INFO  - Navigate to: https://sso.njyrng.preprod.quicklaunch.io
+2022-07-13 15:13:09 INFO  - Input Text: midland2 - By.cssSelector: #branding-username
