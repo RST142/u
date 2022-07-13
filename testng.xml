@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cucumber Suite" >
+
+<!-- All tests will show in Report  -->
+<test verbose="1" name="Cucumeber Test">
+    <classes>
+     <class name="test_runner.RunCukeEndUserAccountRecovery"/> 
+      	   <class name="test_runner.RunCukeEndUserLogin"/> 
+      	    <class name="test_runner.RunCukesEUForgotPassword"/> 
+      	    <class name="test_runner.RunCukesForgotUserName"/> 
+      	    <class name="test_runner.RunCukesFTUser"/> 
+      	      <class name="test_runner.RunCukesTanant"/>  
+      	   
+      	  
+     </classes>
+  </test> 
+  
+</suite> <!-- Default suite -->

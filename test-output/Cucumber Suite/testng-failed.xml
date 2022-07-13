@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cucumber Suite]">
+  <test name="Cucumeber Test(failed)">
+    <classes>
+      <class name="test_runner.RunCukesPrerequisite">
+        <methods>
+          <include name="onFinish"/>
+          <include name="onStart"/>
+        </methods>
+      </class> <!-- test_runner.RunCukesPrerequisite -->
+      <class name="test_runner.RunCukeEndUserLogin">
+        <methods>
+          <include name="onFinish"/>
+          <include name="loginwithoncoconc"/>
+          <include name="TenantLoginwithNASecurity"/>
+          <include name="loginwithocdoc"/>
+          <include name="loginwithococrc"/>
+          <include name="loginwithRCOCONC"/>
+          <include name="loginwithocrcoc"/>
+          <include name="loginwithocncoc"/>
+          <include name="loginwithOCRCONC"/>
+          <include name="TenantLoginwithoutanyconfiguration"/>
+          <include name="TenantLogin"/>
+          <include name="TenantLoginwithdisablesecurity"/>
+          <include name="loginwithoc"/>
+          <include name="TenantLoginwithdisablephone"/>
+          <include name="EndUserLoginwithEmail"/>
+          <include name="loginwithrconcoc"/>
+          <include name="LoginWithoutSecurityQuestion"/>
+          <include name="loginwithoncocrc"/>
+          <include name="loginwithoncrcoc"/>
+          <include name="LoginWithoutPhone"/>
+          <include name="loginwithoconcrc"/>
+          <include name="loginwithrcococ"/>
+          <include name="TenantLoginwithNARCRC"/>
+          <include name="EndUserLoginwitoutMFA"/>
+          <include name="TenantLoginwithemailandphone"/>
+          <include name="TenantLoginfourin"/>
+          <include name="loginwithrnc"/>
+          <include name="EndUserLoginwithPhone"/>
+          <include name="TenantLoginwithdisableemail"/>
+          <include name="TenantLoginwithoutsecurityandphone"/>
+          <include name="onStart"/>
+          <include name="loginwithrc"/>
+          <include name="loginwithonc"/>
+        </methods>
+      </class> <!-- test_runner.RunCukeEndUserLogin -->
+    </classes>
+  </test> <!-- Cucumeber Test(failed) -->
+</suite> <!-- Failed suite [Cucumber Suite] -->
